@@ -54,11 +54,11 @@
 							
 							<h3>CHECk US ON:</h3>
 							<div class="ft-smi flex">
-								<a href="#" target="_blank" class="block"><i class="ai-font-facebook"></i> Facebook</a>
-								<a href="#" target="_blank" class="block"><i class="ai-font-instagram"></i> Instagram</a>
-								<a href="#" target="_blank" class="block"><i class="ai-font-linkedin"></i> Linkedin</a>
-								<a href="#" target="_blank" class="block"><i class="ai-font-zillow"></i> Zillow</a>
-								<a href="#" target="_blank" class="block"><i class="ai-font-tiktok"></i> Tiktok</a>
+								<a href="<?= do_shortcode('[ai_client_facebook]')?>" target="_blank" class="block"><i class="ai-font-facebook"></i> Facebook</a>
+								<a href="<?= do_shortcode('[ai_client_instagram]')?>" target="_blank" class="block"><i class="ai-font-instagram"></i> Instagram</a>
+								<a href="<?= do_shortcode('[ai_client_linkedin]')?>" target="_blank" class="block"><i class="ai-font-linkedin"></i> Linkedin</a>
+								<a href="<?= do_shortcode('[ai_client_zillow]')?>" target="_blank" class="block"><i class="ai-font-zillow"></i> Zillow</a>
+								<a href="<?= do_shortcode('[ai_client_tiktok]')?>s" target="_blank" class="block"><i class="ai-font-tiktok"></i> Tiktok</a>
 							</div>
 						</div>
 					</div><!-- end of more info -->

@@ -2,11 +2,11 @@
 
 
 <div class="floating-smi fixed top-0 right-0 h-100 flex flex-col items-center justify-center">
-	<a href="#" target="_blank" class="block"><i class="ai-font-facebook"></i> Facebook</a>
-	<a href="#" target="_blank" class="block"><i class="ai-font-instagram"></i> Instagram</a>
-	<a href="#" target="_blank" class="block"><i class="ai-font-linkedin"></i> Linkedin</a>
-	<a href="#" target="_blank" class="block"><i class="ai-font-zillow"></i> Zillow</a>
-	<a href="#" target="_blank" class="block"><i class="ai-font-tiktok"></i> Tiktok</a>
+	<a href="<?= do_shortcode('[ai_client_facebook]')?>" target="_blank" class="block"><i class="ai-font-facebook"></i> Facebook</a>
+	<a href="<?= do_shortcode('[ai_client_instagram]')?>" target="_blank" class="block"><i class="ai-font-instagram"></i> Instagram</a>
+	<a href="<?= do_shortcode('[ai_client_linkedin]')?>" target="_blank" class="block"><i class="ai-font-linkedin"></i> Linkedin</a>
+	<a href="<?= do_shortcode('[ai_client_zillow]')?>" target="_blank" class="block"><i class="ai-font-zillow"></i> Zillow</a>
+	<a href="<?= do_shortcode('[ai_client_tiktok]')?>s" target="_blank" class="block"><i class="ai-font-tiktok"></i> Tiktok</a>
 	<div class="smi-divider"></div>
 	<h3>follow us</h3>
 </div>
@@ -799,10 +799,10 @@
 			<div class="social-media-smi flex justify-between items-center">
 				<h2>CHECK JOE MILANI ON OTHER SOCIAL MEDIA PLATFORMS:</h2>
 				<ul class="flex">
-					<li><a href="#" target="_blank" class="block"><i class="ai-font-facebook"></i> Facebook</a></li>
-					<li><a href="#" target="_blank" class="block"><i class="ai-font-linkedin"></i> Linkedin</a></li>
-					<li><a href="#" target="_blank" class="block"><i class="ai-font-zillow"></i> Zillow</a></li>
-					<li><a href="#" target="_blank" class="block"><i class="ai-font-tiktok"></i> Tiktok</a></li>
+					<li><a href="<?= do_shortcode('[ai_client_facebook]')?>" target="_blank" class="block"><i class="ai-font-facebook"></i> Facebook</a></li>
+					<li><a href="<?= do_shortcode('[ai_client_linkedin]')?>" target="_blank" class="block"><i class="ai-font-linkedin"></i> Linkedin</a></li>
+					<li><a href="<?= do_shortcode('[ai_client_zillow]')?>" target="_blank" class="block"><i class="ai-font-zillow"></i> Zillow</a></li>
+					<li><a href="<?= do_shortcode('[ai_client_tiktok]')?>" target="_blank" class="block"><i class="ai-font-tiktok"></i> Tiktok</a></li>
 				</ul>
 			</div>
 
